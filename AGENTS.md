@@ -31,3 +31,9 @@
 - Controleer de kernberekening, momentafhankelijke vragen, tips en gegevensscheiding met gerichte tests.
 - Controleer de volledige route in de browser waar mogelijk, ook op een mobiel formaat.
 - Meld uitgevoerde controles en eventuele verificatiebeperkingen bij oplevering.
+
+## Bewijslast voor de schoolopdracht
+- Houd het passend bij de betreffende lesweek: een paar relevante screenshots en een kort logboek. Geen uitgebreid dossier zonder verzoek.
+- Bewaar echte opnames van het product en, bij een zichtbare verbetering, de situatie vóór en na. Gebruik fictieve gegevens en snijd andere tabbladen buiten beeld.
+- Noteer kort de gebruikte instructie, test, bevinding en aanpassing. Verzin geen fouten, leerervaringen of historische screenshots.
+- De lespresentatie vraagt om screenshots als afbeeldingen in de PowerPoint. Maak die presentatie pas wanneer de gebruiker daarom vraagt.

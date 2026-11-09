@@ -69,6 +69,10 @@ Gerichte tests controleren onder andere ontbrekende versus nul-antwoorden, dagde
 
 Handmatige browsercontrole: eigen check invullen, resultaat beoordelen, verversen, antwoorden aanpassen, voorbeeldmodus in- en uitschakelen, gegevens verwijderen en mobiele weergave controleren.
 
+## Bewijslast voor school
+
+[Week 1](docs/bewijslast/week-1/README.md) bevat vier screenshots en een kort logboek van de briefing, een test en een zichtbare verbetering. Voeg de gekozen afbeeldingen later rechtstreeks in de PowerPoint in.
+
 ## Projectstructuur
 
 | Bestand | Doel |

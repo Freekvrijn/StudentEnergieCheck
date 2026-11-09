@@ -36,3 +36,7 @@ De browserconsole liet tijdens de controle geen fout van de app zien. Er was een
 - De vragen en tips zijn ontwerpkeuzes en nog niet gevalideerd in onderzoek met de doelgroep.
 
 De zelf aangemaakte eigen browserinvoer is na de test verwijderd. Er zijn geen persoonlijke antwoorden opgenomen in de repository.
+
+## Aanvullende bewijs- en verbetersessie
+
+Bij een nieuwe testsessie op 9 november is ontdekt dat opgeloste veldmeldingen bleven staan totdat de gebruiker opnieuw op Volgende klikte. Dit is aangepast: na geldige invoer verdwijnt de betreffende melding direct, zonder verlies van focus. Dezelfde test is vóór en na de wijziging vastgelegd in [het bewijslastdossier](bewijslast/week-1/README.md). Ook is de volledige ochtendroute opnieuw doorlopen en slagen de veertien bestaande tests. Dit is technische controle, geen gebruikersonderzoek.

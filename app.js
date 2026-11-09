@@ -179,6 +179,23 @@ function bindForm() {
       state.draft.note = value;
       document.querySelector('#note-count').textContent = `${value.length}/300`;
     } else if (type === 'radio' || type === 'number') state.draft[name] = value === '' ? null : Number(value);
+
+    // Clear a resolved field error immediately without rebuilding the form or losing focus.
+    if (state.errors[name] && !validateStep(state.draft, state.step)[name]) {
+      delete state.errors[name];
+      const group = event.target.closest('.field-group');
+      const errorId = `error-${name}`;
+      document.getElementById(errorId)?.remove();
+      group?.classList.remove('has-error');
+      for (const element of [group, ...(group?.querySelectorAll('[aria-describedby], [aria-invalid]') || [])]) {
+        if (!element) continue;
+        const descriptions = (element.getAttribute('aria-describedby') || '').split(' ').filter(id => id && id !== errorId);
+        if (descriptions.length) element.setAttribute('aria-describedby', descriptions.join(' '));
+        else element.removeAttribute('aria-describedby');
+        element.removeAttribute('aria-invalid');
+      }
+      if (!Object.keys(state.errors).length) announce('De ontbrekende antwoorden zijn ingevuld. Je kunt verder.');
+    }
   });
   form.addEventListener('submit', event => {
     event.preventDefault();
